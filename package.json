@@ -1,0 +1,16 @@
+{
+  "name": "ionic-package-polling",
+  "version": "1.0.0",
+  "description": "Polls Ionic.io native builds to trigger success or failed events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "ionic-app-lib": "^2.0.0-beta.8",
+    "underscore": "^1.8.3"
+  }
+}
