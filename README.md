@@ -18,7 +18,8 @@ var Poll = require("./index");
 var poll = new Poll({
     username: "email@domain.com",
     password: "yourpassword",
-    appId: "yourAppId"
+    appId: "yourAppId",
+    interval: 10 // Optional: poll every x minutes, default is 3
 });
 
 poll.onSuccess(function(model) {

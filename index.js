@@ -34,7 +34,7 @@ _.extend(module.exports.prototype, {
         Login.requestLogIn(this.options.username, this.options.password).then(function(jar) {
             self.jar = jar;
 
-            var minutesInterval = self.options.interval * 1000;
+            var minutesInterval = self.options.interval * 1000 * 60;
             self.timer = setInterval(_.bind(self.getData, self), minutesInterval);
             self.getData();
         }).fail(function(e) {
