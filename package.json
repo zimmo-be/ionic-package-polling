@@ -1,6 +1,6 @@
 {
   "name": "ionic-package-polling",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Polls Ionic.io native builds to trigger success or failed events",
   "main": "index.js",
   "scripts": {

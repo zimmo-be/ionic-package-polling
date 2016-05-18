@@ -13,7 +13,7 @@ $ npm install ionic-package-polling
 
 Here is a basic example:
 ```
-var Poll = require("./index");
+var Poll = require("ionic-package-polling");
 
 var poll = new Poll({
     username: "email@domain.com",
